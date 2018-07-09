@@ -1,0 +1,117 @@
+dependencies:
+  axios: 0.18.0
+  cloudinary: 1.11.0
+  node-cron: 1.2.1
+  raven: 2.6.3
+packages:
+  /axios/0.18.0:
+    dependencies:
+      follow-redirects: 1.5.1
+      is-buffer: 1.1.6
+    dev: false
+    resolution:
+      integrity: sha1-MtU+SFHv3AoRmTts0AB4nXDAUQI=
+  /charenc/0.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
+  /cloudinary/1.11.0:
+    dependencies:
+      lodash: 4.17.10
+      q: 1.5.1
+    dev: false
+    engines:
+      node: '>=0.6'
+    resolution:
+      integrity: sha512-U5j9aWaYrSteboC7KcFZhvWy734d60CrrEUHVMpCtKhEWxpxXyVSe4Ag1BnRaVVq0YOvlJpXe6Qt6hAcb+h1lg==
+  /cookie/0.3.1:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
+  /crypt/0.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-iNf/fsDfuG9xPch7u0LQRNPmxBs=
+  /debug/3.1.0:
+    dependencies:
+      ms: 2.0.0
+    dev: false
+    resolution:
+      integrity: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  /follow-redirects/1.5.1:
+    dependencies:
+      debug: 3.1.0
+    dev: false
+    engines:
+      node: '>=4.0'
+    resolution:
+      integrity: sha512-v9GI1hpaqq1ZZR6pBD1+kI7O24PhDvNGNodjS3MdcEqyrahCp8zbtpv+2B/krUnSmUH80lbAS7MrdeK5IylgKg==
+  /is-buffer/1.1.6:
+    dev: false
+    resolution:
+      integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+  /lodash/4.17.10:
+    dev: false
+    resolution:
+      integrity: sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
+  /md5/2.2.1:
+    dependencies:
+      charenc: 0.0.2
+      crypt: 0.0.2
+      is-buffer: 1.1.6
+    dev: false
+    resolution:
+      integrity: sha1-U6s41f48iJG6RlMp6iP6wFQBJvk=
+  /ms/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+  /node-cron/1.2.1:
+    dev: false
+    resolution:
+      integrity: sha1-jJC8XccjpWKJsHhmVatKHEy2A2g=
+  /q/1.5.1:
+    dev: false
+    engines:
+      node: '>=0.6.0'
+      teleport: '>=0.2.0'
+    resolution:
+      integrity: sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
+  /raven/2.6.3:
+    dependencies:
+      cookie: 0.3.1
+      md5: 2.2.1
+      stack-trace: 0.0.10
+      timed-out: 4.0.1
+      uuid: 3.0.0
+    dev: false
+    engines:
+      node: '>= 4.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-bKre7qlDW+y1+G2bUtCuntdDYc8o5v1T233t0vmJfbj8ttGOgLrGRlYB8saelVMW9KUAJNLrhFkAKOwFWFJonw==
+  /stack-trace/0.0.10:
+    dev: false
+    resolution:
+      integrity: sha1-VHxws0fo0ytOEI6hoqFZ5f3eGcA=
+  /timed-out/4.0.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=
+  /uuid/3.0.0:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha1-Zyj8BFnEUNeWqZwxg3VpvfZy1yg=
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 8
+shrinkwrapVersion: 3
+specifiers:
+  axios: ^0.18.0
+  cloudinary: ^1.11.0
+  node-cron: ^1.2.1
+  raven: ^2.6.3
